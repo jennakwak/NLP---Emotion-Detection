@@ -1,6 +1,6 @@
 # NLP---Emotion-Detection
 
-## 1. Project Object
+## 1. Project Overview
 - The project seeks to answer the intriguing question: **'Is the media spreading fear about AI?’**. I delved into this by first preprocessing and exploring a dataset of 10,000 headlines. The journey continued with a thorough analysis using three sentiment analysis models to assign emotions to these headlines.
 - I focused on tracking the **Shift in Sentiment/Emotion in AI-related Articles from May to November 2023**.
 - The culmination of my research not only sheds light on the emotional trends in media but also offers a critical evaluation of the models used and provides insights that could guide the media's narrative around artificial intelligence.
