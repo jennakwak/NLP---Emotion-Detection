@@ -23,7 +23,7 @@
 - **Gave emotion labels to each 385 headlines based on my opinion** (Emotion set in the model: Fear, Disgust, Sad, Anger, Neutral, Joy, Surprise) 
 - Trained model w/ hyperparameter tuning
 
-## 5. Evaluation
+## 5. Model Evaluation
 - Achieving high accuracy, F1 scores, precision, and recall proved challenging due to the imbalanced emotion of the dataset in the first place from the original dataset.
 - This outcome was not entirely unexpected. I tried two different sets of human scoring from two people. However, given the overlapping nature of emotions such as anger, fear, sadness, and disgust, it was quite hard to give emotion scores even for 2 humans due to their subtle differences.
 - Even though with bad metrics because of those subtle differences between many emotion set in the model, those 3 models indicate similar 'Fear' ratio out of total if we consider negative emotions together. Hence, it is intuitively better model than what metrics have to decribe.
@@ -35,7 +35,7 @@
 <img width="700" alt="image" src="https://github.com/jennakwak/NLP---Emotion-Detection/assets/159206625/5661c817-7af5-4a4a-9428-4d44b02868d3">    \ 
 - The sentiment of 'neutral' predominates, accounting for 60-65% of the emotions. Using the fine-tuned Emotion Detection model before training, the proportion of fear detected was under 10%. But after tuning the hyperparameters and training the model, it went up to about 20%. This suggests that the way humans and machines understand fear in the development of AI is different.
 
-## 7. Conclusion (w/ Recommendation to Media)
+## 7. Conclusion (w/ Future work, Recommendation to Media)
 - To the question 'Is the media spreading fear of AI?', the answer seems to be ‘not quite'. We see that as the number of articles grows in October and November, the emotion of fear decreases or remains the same.
 - While this analysis gives us good insights on news media’s impact to the public, to get a more complete picture, we should also look at social media, YouTube, podcasts, and other forms of media, since they also shape public perception. Broader analysis across these platforms would provide a more accurate reflection of sentiment towards AI.
 - Given the fact that headlines are generally neutral, focusing on AI advancements, but possibly leading to a more positive public perception, it is important for media to also address the challenges associated with AI, including ethical concerns, potential job displacement, and privacy issues. Therefore, my recommendation for media is to continue providing a balanced narrative that includes the benefits and challenges of AI to ensure a comprehensive public understanding. 
